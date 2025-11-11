@@ -26,8 +26,9 @@ This project helped me understand basic digital pin control and timing using the
 **Circuit Screenshot:**  
 ![Circuit Screenshot](./blin_led.png)
 
+
 **Code:**  
-See: `blink_led.ino`
+See: [blink_led.ino](./blink_led.ino)
 
 ---
 
