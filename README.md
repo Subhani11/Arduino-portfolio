@@ -24,7 +24,7 @@ This project helped me understand basic digital pin control and timing using the
 - Implementing simple delays  
 
 **Circuit Screenshot:**  
-![Circuit Screenshot](./blink_led.png)
+![Circuit Screenshot](./blin_led.png)
 
 **Code:**  
 See: `blink_led.ino`
