@@ -54,9 +54,11 @@ This project helped me understand input pin reading, debouncing basics, and cond
 - Understanding pull-up/pull-down behavior
 
 **Circuit Screenshot:**  
-![Circuit Screenshot](./LED Blink with Push Button Control.png)
+![Circuit Screenshot](./button_led_blink.png)
+
 
 **Code:**  
-See: `LED Blink with Push Button Control.ino`
+See: [button_led_blink.ino](./button_led_blink.ino)
+
 
 More projects will be added as I continue learning and building.
