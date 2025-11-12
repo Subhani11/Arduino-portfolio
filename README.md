@@ -61,4 +61,31 @@ This project helped me understand input pin reading, debouncing basics, and cond
 See: [button_led_blink.ino](./button_led_blink.ino)
 
 
+## Project: LED Brightness Control Using Potentiometer
+
+**Components Used:**  
+- Arduino Uno  
+- LED  
+- 220Ω Resistor  
+- Potentiometer  
+- Breadboard & Jumper Wires
+
+**Description:**  
+This project controls LED brightness using a potentiometer. The analog input from the potentiometer is mapped to a PWM output to control brightness.
+
+**Skills Learned:**  
+- analogRead()
+- map()
+- PWM with analogWrite()
+
+**Circuit Screenshot:**  
+![Circuit Screenshot](./potentiometer_controlled_led_brightness.png)
+
+**Demo Video:**  
+[https://drive.google.com/your_shared_link_here](https://drive.google.com/file/d/1yaWHLbJruZZDHO297kQMmp6ePmcrm78w/view?usp=sharing)
+
+**Code:**  
+See: [potentiometer_controlled_led_brightness.ino](./potentiometer_controlled_led_brightness.ino)
+
+
 More projects will be added as I continue learning and building.
