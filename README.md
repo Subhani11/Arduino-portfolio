@@ -87,5 +87,32 @@ This project controls LED brightness using a potentiometer. The analog input fro
 **Code:**  
 See: [potentiometer_controlled_led_brightness.ino](./potentiometer_controlled_led_brightness.ino)
 
+## Project: Servo Motor Angle Sweep
+
+**Components Used:**  
+- Arduino Uno  
+- Servo Motor (SG90 or similar)  
+- Jumper Wires  
+- External 5V power (recommended for stable operation)
+
+**Description:**  
+In this project, the servo motor rotates smoothly from 0° to 180° and then returns back to 0°.  
+The `Servo` library is used to control the motor angle precisely.  
+This project helped me understand PWM-based control of servo motors and how angle control works using incremental movement.
+
+**Skills Learned:**  
+- Using the Servo library (`Servo.h`)  
+- Controlling servo motor angles with `write()`  
+- Using loops to create smooth movement  
+- Basic timing control using `delay()`
+
+**Circuit Screenshot:**  
+![Circuit Screenshot](./servo_motor_control.png)
+
+**Demo Video:**  
+[https://drive.google.com/your-video-link-here](https://drive.google.com/file/d/1vaAky9gS7CG76kkylPsFx_oScV0iIYRy/view?usp=sharing)
+
+**Code:**  
+See: [servo_motor_control.ino](./servo_motor_control.ino)
 
 More projects will be added as I continue learning and building.
