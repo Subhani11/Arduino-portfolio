@@ -91,7 +91,7 @@ See: [potentiometer_controlled_led_brightness.ino](./potentiometer_controlled_le
 
 **Components Used:**  
 - Arduino Uno  
-- Servo Motor (SG90 or similar)  
+- Servo Motor 
 - Jumper Wires  
 - External 5V power (recommended for stable operation)
 
@@ -114,5 +114,35 @@ This project helped me understand PWM-based control of servo motors and how angl
 
 **Code:**  
 See: [servo_motor_control.ino](./servo_motor_control.ino)
+
+
+## Project: Servo Motor Control Using Potentiometer
+
+**Components Used:**  
+- Arduino Uno  
+- Servo Motor   
+- 10k Potentiometer  
+- Breadboard & Jumper Wires
+
+**Description:**  
+In this project, the position of the servo motor is controlled by turning the potentiometer.  
+The potentiometer provides an analog input value (0–1023), which is mapped to an angle between 0° and 180° for the servo.  
+This project helped in understanding analog input reading and how to convert the input into a physical rotational movement.
+
+**Skills Learned:**  
+- Using `analogRead()` for reading sensor input  
+- Applying `map()` to convert values to angle range  
+- Controlling servo angles using `Servo.write()`  
+- Implementing smooth motion using incremental steps
+
+**Circuit Screenshot:**  
+![Circuit Screenshot](./potentiometer_controlled_servo_motor.png)
+
+**Demo Video:**  
+[https://drive.google.com/your-video-link-here](https://drive.google.com/file/d/1vy2P5LN_pDNMb5pTGuurAiHTubrxKz_X/view?usp=sharing)
+
+**Code:**  
+See: [potentiometer_controlled_servo_motor.ino](./potentiometer_controlled_servo_motor.ino)
+
 
 More projects will be added as I continue learning and building.
