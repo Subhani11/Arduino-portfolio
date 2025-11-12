@@ -145,4 +145,33 @@ This project helped in understanding analog input reading and how to convert the
 See: [potentiometer_controlled_servo_motor.ino](./potentiometer_controlled_servo_motor.ino)
 
 
+## Project: Ultrasonic Distance Measurement (Single-Pin HC-SR04)
+
+**Components Used:**  
+- Arduino Uno  
+- HC-SR04 Ultrasonic Sensor  
+- Jumper Wires  
+- Breadboard (optional)
+
+**Description:**  
+This project measures the distance to an object using the HC-SR04 ultrasonic sensor.  
+Both the trigger and echo signals are handled on a single Arduino pin by switching the pin direction between OUTPUT and INPUT modes.  
+The time taken for the sound wave to return is converted into distance in centimeters and printed to the Serial Monitor.
+
+**Skills Learned:**  
+- Using `pulseIn()` to measure signal duration  
+- Converting time-of-flight to distance  
+- Switching pin modes dynamically (OUTPUT → INPUT)  
+- Understanding ultrasonic sensing behavior
+
+**Circuit Screenshot:**  
+![Circuit Screenshot](./Ultrasound_distance_sensor.png)
+
+**Demo Video:**  
+[https://drive.google.com/your-video-link-here](https://drive.google.com/file/d/1XTA0XLLecq10tVnWnZ0Q3SZQTzS6UVN2/view?usp=sharing)
+
+**Code:**  
+See: [Ultrasound_distance_sensor.ino](./Ultrasound_distance_sensor.ino)
+
+
 More projects will be added as I continue learning and building.
